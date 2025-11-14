@@ -12,7 +12,7 @@ We introduce a dual-driven (physics + data) multimodal dehazing framework that t
 Code and datasets will be publicly released upon paper acceptance.
 
 ![The degradation processes under multimodal physical consistency; Multimodal physically consistent fusion framework](img/framework.png)
-![The physics-and-data dual-driven multimodal dehazing pipelin](img/pipeline.png)
+![The physics-and-data dual-driven multimodal dehazing pipeline](img/pipeline.png)
 ---
 
 
@@ -38,6 +38,9 @@ We provide both synthetic and real-scene multimodal datasets:
 Dataset links and instructions will be released after paper acceptance.  
 Please contact us for access during the review process.
 
+![real-MH](img/real-MH.png)
+![syn-MH-dense](img/syn-MH-dense.png)
+![real-MH-medium](img/syn-MH-medium.png)
 ---
 
 *(This section will be made public after the paper is officially accepted.)*
