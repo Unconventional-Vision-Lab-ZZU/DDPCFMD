@@ -69,13 +69,15 @@ Full result tables, model checkpoints, and visual examples will be provided afte
 
 ## Citation
 If you find this work useful, please cite:
-bibtex
+
+```bibtex
 @article{DDPCFMD2025,
   title={Dual-Driven Physically Consistent Fusion for Multimodal Dehazing},
   author={Author names},
   journal={IEEE Transactions on Multimedia},
   year={2025}
 }
+
 ```
 
 ---
