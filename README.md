@@ -32,15 +32,16 @@ pip install -r requirements.txt
 
 ## Dataset
 We provide both synthetic and real-scene multimodal datasets:
-- **syn-MH**: A physically aligned synthetic multimodal haze dataset.  
+- **syn-MH**: A physically aligned synthetic multimodal haze dataset.
+![syn-MH-dense](img/syn-MH-dense.png)
+![syn-MH-medium](img/syn-MH-medium.png)
 - **real-MH**: A real-scene multimodal dataset collected with a custom imaging system.  
+![real-MH](img/real-MH.png)
 
 Dataset links and instructions will be released after paper acceptance.  
 Please contact us for access during the review process.
 
-![real-MH](img/real-MH.png)
-![syn-MH-dense](img/syn-MH-dense.png)
-![real-MH-medium](img/syn-MH-medium.png)
+
 ---
 
 *(This section will be made public after the paper is officially accepted.)*
