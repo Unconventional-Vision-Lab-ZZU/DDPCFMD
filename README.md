@@ -11,8 +11,8 @@ This repository contains the official implementation, dataset pointers, and eval
 We introduce a dual-driven (physics + data) multimodal dehazing framework that tightly couples imaging physics with deep learning for robust visibility restoration under dense haze.  
 Code and datasets will be publicly released upon paper acceptance.
 
-![The degradation processes under multimodal physical consistency; Multimodal physically consistent fusion framework](img/framework.png)
-![The physics-and-data dual-driven multimodal dehazing pipeline](img/pipeline.png)
+![The degradation processes under multimodal physical consistency; Multimodal physically consistent fusion framework](img/framework2.png)
+![The physics-and-data dual-driven multimodal dehazing pipeline](img/pipeline2.png)
 ---
 
 
@@ -64,6 +64,8 @@ Training and inference share consistent normalization, optimizer, and resolution
 
 ## Results
 Our method achieves state-of-the-art performance on both synthetic and real-scene haze datasets.  
+![result1](img/CE.png)
+![result2](img/GE.png)
 Metrics include **PSNR**, **SSIM**, and **NIQE**, along with **Params** and **MACs** for efficiency comparison.  
 Full result tables, model checkpoints, and visual examples will be provided after publication.
 
