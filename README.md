@@ -94,6 +94,6 @@ If you find this work useful, please cite:
 ## Contact
 For any inquiries, please contact:
 **Unconventional Vision Lab, Zhengzhou University (ZZU)**  
-📧 Contact: [zzu_xzq@zzu.edu.cn, iexumingliang@zzu.edu.cn, iemyjiu@zzu.edu.cn]  
+📧 Contact: [zzu_xzq@zzu.gs.edu.cn, iexumingliang@zzu.edu.cn, iemyjiu@zzu.edu.cn]  
 🌐 Project Page: [https://github.com/Unconventional-Vision-Lab-ZZU/DDPCFMD]
 
