@@ -64,8 +64,9 @@ Training and inference share consistent normalization, optimizer, and resolution
 
 ## Results
 Our method achieves state-of-the-art performance on both synthetic and real-scene haze datasets.  
-![result1](img/CE.png)
-![result2](img/GE.png)
+![result1](img/CE2.png)
+![result1](img/CE3.png)
+![result2](img/GE4.png)
 Metrics include **PSNR**, **SSIM**, and **NIQE**, along with **Params** and **MACs** for efficiency comparison.  
 Full result tables, model checkpoints, and visual examples will be provided after publication.
 
