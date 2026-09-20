@@ -53,11 +53,6 @@ pip install -r requirements.txt
 ```
 
 ## Training data
-
-Prepare aligned samples using the original NPY/PNG folder layout. Files for the
-same sample must share a filename stem. Sensor registration, polarization
-extraction, and dataset generation are external to this repository.
-
 ```text
 your_training_directory/
   I_alpha/sample.npy       H x W x 9: three RGB polarization views
@@ -74,14 +69,8 @@ your_training_directory/
 
 NPY values use the [0, 1] scale; PNG files use 8-bit values. The loader expands
 the airlight DoP vector spatially and resizes the image fields with antialiased
-bilinear interpolation. All samples in the supplied directory are used for
-training, without a validation split.
+bilinear interpolation.
 
-| Stage | Required folders |
-| --- | --- |
-| `transmission` | `I_alpha`, `I_hat`, `delta_I_hat`, `P_A`, `P_T`, `T`, `gated` |
-| `radiance` | `I_alpha`, `I_hat`, `T`, `ir_foggy`, `A_infinity`, `R` |
-| `joint` | All folders above |
 
 ## Training
 
