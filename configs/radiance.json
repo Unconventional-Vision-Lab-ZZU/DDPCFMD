@@ -1,0 +1,20 @@
+{
+  "stage": "radiance",
+  "image_size": [240, 320],
+  "batch_size": 5,
+  "epochs": 400,
+  "num_workers": 0,
+  "shuffle": true,
+  "optimizer": {
+    "lr": 0.0001,
+    "betas": [0.5, 0.999],
+    "weight_decay": 0.0,
+    "amsgrad": true
+  },
+  "lr_schedule": "branch_decay",
+  "loss_weights": {
+    "airlight": [2.0, 1.0],
+    "radiance": [4.0, 2.0]
+  },
+  "save_every": 10
+}

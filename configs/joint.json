@@ -1,0 +1,24 @@
+{
+  "stage": "joint",
+  "image_size": [240, 320],
+  "batch_size": 4,
+  "epochs": 400,
+  "num_workers": 0,
+  "shuffle": true,
+  "optimizer": {
+    "lr": 0.0005,
+    "betas": [0.5, 0.999],
+    "weight_decay": 0.0,
+    "amsgrad": true
+  },
+  "lr_schedule": "constant",
+  "loss_weights": {
+    "airlight_dop": [2.0, 1.0],
+    "transmission_dop": [2.0, 1.0],
+    "transmission": [2.0, 1.0],
+    "tgi_transmission": [2.0, 1.0],
+    "airlight": [2.0, 1.0],
+    "radiance": [2.0, 1.0]
+  },
+  "save_every": 10
+}
